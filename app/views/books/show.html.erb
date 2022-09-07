@@ -1,3 +1,5 @@
-<tr>Title</tr><tr>:</tr><tr><p><%= @book.title %></p></tr>
+<tr>Title：</tr><tr><%= @book.title %></tr>
+<p>
+<tr>Body：</tr><tr><%= @book.body %></tr></p>
+<%= link_to "Edit", edit_book_path(@book.id) %>
 
-<tr>Body</tr><tr>:</tr><tr><p><%= @book.body %></p></tr>
