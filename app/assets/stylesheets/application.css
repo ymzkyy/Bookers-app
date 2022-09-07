@@ -26,3 +26,11 @@ body {
     display: block;
     margin: 33px;
 }
+
+
+
+.a {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
