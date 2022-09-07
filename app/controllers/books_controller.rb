@@ -3,7 +3,7 @@ class BooksController < ApplicationController
   end
 
   def index
-    @book = Book.new
+    @book = Book.all
   end
 
   def create
